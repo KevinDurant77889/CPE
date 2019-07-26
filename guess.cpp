@@ -7,7 +7,8 @@ int main()
 	int input;
 	string di;
 	vector <string> mv;
-	int ans[10] = {1};
+	int ans[10];
+	memset(ans,1,10);
 	bool istrue = false;
 	while (true)
 		{
@@ -66,7 +67,7 @@ int main()
 			else
 			{
 				mv.push_back("Stan is dishonest");
-				ans[10] = { 1 };
+				memset(ans,1,10);
 				istrue = false;
 			}
 
