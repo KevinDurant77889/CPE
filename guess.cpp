@@ -61,7 +61,7 @@ int main()
 			if (istrue)
 			{
 				mv.push_back("Stan may be honest");
-				ans[10] = { 1 };
+				memset(ans,1,10);
 				istrue = false;
 			}
 			else
